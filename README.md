@@ -54,14 +54,16 @@ Body para Json sugerido:
 
 ### Para *Frontend*:
 Asegurate de estar en *galeria* para levantar el frontend e instala las dependencias
-    ```
+
+```
     cd galeria
     npm install
     npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs
     npm install react-native-screens react-native-safe-area-context
 
-    ```
+```
 Con esto podemos proceder a levantar el proyecto con
+
 ```
     npm run start
 ```
