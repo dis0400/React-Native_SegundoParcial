@@ -72,7 +72,7 @@ Con esto podemos proceder a levantar el proyecto con
 Finalmete se puede escanear el codigo qr desde Expo Go en tu celular.
 ## Demo
 
-[![Watch the video](https://youtube.com/shorts/-xTkLTe8xQ0?si=U6youy6x0qU063Ip)]
+[![Watch the video](https://i.pinimg.com/originals/6a/48/a1/6a48a1842787ef698c7f0cadc622d67d.jpg])(https://youtube.com/shorts/-xTkLTe8xQ0?si=U6youy6x0qU063Ip)
 
 
 ## Estructura del proyecto
