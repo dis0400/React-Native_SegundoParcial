@@ -27,14 +27,16 @@ Sigue estos pasos para instalar y ejecutar la aplicación:
     
 ### Para *Backend*:
 Para comenzar realiza los siguientes comandos dentro de *gbackend*
-    ```
+
+```
     cd gbackend
     npm install firebase-admin --save    
     npm install express
     npm install nodemon   
     npm install body-parser    
-    ```
+```
 Y para levantar el Backend realizamos el siguiente comenado
+
   ```
     npm run dev
    ```
