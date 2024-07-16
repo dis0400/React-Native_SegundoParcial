@@ -18,15 +18,99 @@ Sigue estos pasos para instalar y ejecutar la aplicación:
 
     ```sh
     git clone https://github.com/dis0400/React-Native_SegundoParcial.git
-
     ```
 
 2. Instala las dependencias:
-
     ```sh
     npm install
     ```
-### Para *Frontend*:
+    
 ### Para *Backend*:
-#### Postman 
+Para comenzar realiza los siguientes comandos dentro de *gbackend*
+    ```sh
+    cd gbackend
+    npm install firebase-admin --save    
+    npm install express
+    npm install nodemon   
+    npm install body-parser    
+    ```
+Y para levantar el Backend realizamos el siguiente comenado
+  ```sh
+    npm run dev
+    ```
+
+### Postman 
 Documentacion de pruebas realizadas en Postman: https://docs.google.com/document/d/1u0upREyn846Xpo4qNAwAwvEMNWATcCTsbR3jFJb6l8g/edit?usp=sharing
+
+Body para Json sugerido:
+```sh
+{
+	"url": "http://example.com/image.jpg",
+	"category":"nature",
+	"year":"2022",
+	"month": "April"
+}
+```
+
+### Para *Frontend*:
+Asegurate de estar en *galeria* para levantar el frontend e instala las dependencias
+    ```sh
+    cd galeria
+    npm install
+    npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs
+    npm install react-native-screens react-native-safe-area-context
+
+    ```
+Con esto podemos proceder a levantar el proyecto con
+```sh
+    npm run start
+    ```
+Finalmete se puede escanear el codigo qr desde Expo Go en tu celular.
+
+## Estructura del proyecto
+``` sh
+.
+├── galeria
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   │   ├── PhotoCard.jsx
+│   │   │   ├── AlbumCard.jsx
+│   │   │   ├── PeopleCard.jsx
+│   │   │   ├── SearchResultCard.jsx
+│   │   ├── data
+│   │   │   ├── sampleData.js
+│   │   ├── layouts
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   ├── screens
+│   │   │   ├── AlbumsScreen.jsx
+│   │   │   ├── ForYouScreen.jsx
+│   │   │   ├── LibraryScreen.jsx
+│   │   │   ├── SearchScreen.jsx
+│   │   │   ├── ProfileScreen.jsx
+│   │   │   ├── SettingsScreen.jsx
+│   │   ├── services
+│   │   │   ├── ImageInstance.js
+│   │   │   ├── ImageService.js
+│   ├── App.js
+│   ├── app.json
+│   ├── babel.config.js
+│   ├── package.json
+│   ├── package-lock.json
+├── gbackend
+│   ├── config
+│   │   ├── firebaseConfig.js
+│   │   ├── firebase_setup.json
+│   ├── controllers
+│   │   ├── imageController.js
+│   ├── routes
+│   │   ├── imageRoutes.js
+│   ├── services
+│   │   ├── ImageService.js
+│   ├── index.js
+│   ├── package.json
+│   ├── package-lock.json
+├── .gitignore
+└── README.md
+```
