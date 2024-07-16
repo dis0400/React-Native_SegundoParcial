@@ -71,9 +71,9 @@ Con esto podemos proceder a levantar el proyecto con
 ```
 Finalmete se puede escanear el codigo qr desde Expo Go en tu celular.
 ## Demo
-```
+
 [![Watch the video](https://youtube.com/shorts/-xTkLTe8xQ0?si=U6youy6x0qU063Ip)]
-```
+
 
 ## Estructura del proyecto
 ``` sh
