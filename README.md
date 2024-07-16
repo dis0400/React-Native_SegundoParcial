@@ -27,7 +27,7 @@ Sigue estos pasos para instalar y ejecutar la aplicación:
     
 ### Para *Backend*:
 Para comenzar realiza los siguientes comandos dentro de *gbackend*
-    ```sh
+    ```
     cd gbackend
     npm install firebase-admin --save    
     npm install express
@@ -35,15 +35,15 @@ Para comenzar realiza los siguientes comandos dentro de *gbackend*
     npm install body-parser    
     ```
 Y para levantar el Backend realizamos el siguiente comenado
-  ```sh
+  ```
     npm run dev
-    ```
+   ```
 
 ### Postman 
 Documentacion de pruebas realizadas en Postman: https://docs.google.com/document/d/1u0upREyn846Xpo4qNAwAwvEMNWATcCTsbR3jFJb6l8g/edit?usp=sharing
 
 Body para Json sugerido:
-```sh
+```
 {
 	"url": "http://example.com/image.jpg",
 	"category":"nature",
@@ -54,7 +54,7 @@ Body para Json sugerido:
 
 ### Para *Frontend*:
 Asegurate de estar en *galeria* para levantar el frontend e instala las dependencias
-    ```sh
+    ```
     cd galeria
     npm install
     npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs
@@ -62,9 +62,9 @@ Asegurate de estar en *galeria* para levantar el frontend e instala las dependen
 
     ```
 Con esto podemos proceder a levantar el proyecto con
-```sh
+```
     npm run start
-    ```
+```
 Finalmete se puede escanear el codigo qr desde Expo Go en tu celular.
 
 ## Estructura del proyecto
